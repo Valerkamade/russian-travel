@@ -1,3 +1,15 @@
 /* Импорт сторонних файлов */
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
+
+/* Импорт глобальных файлов */
+@import url(../global/variabls.css);
+
+/* Импорт блока page */
+@import url(../blocks/page/page.css);
+
+/* Импорт блока link */
+@import url(../blocks/link/link.css);
+
+/* Импорт блока link */
+@import url(../blocks/header/header.css);
