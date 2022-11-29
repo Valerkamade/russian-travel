@@ -1,0 +1,31 @@
+.lead__title {
+  width: calc(100% - 2 * 16px);
+  margin: 0 auto 16px;
+
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 1.1;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .lead__title {
+    width: calc(100% - 2 * 24px);
+    margin: 0 auto 32px;
+
+    font-size: 6rem;
+    line-height: 1.04;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lead__title {
+    width: calc(100% - 2 * (152px - 48px));
+  }
+}
+
+@media (min-width: 1280px) {
+  .lead__title {
+    width: calc(100% - 2 * (280px - 148px));
+  }
+}

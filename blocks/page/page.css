@@ -1,9 +1,13 @@
 .page {
-  max-width: 320px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
 
   color: var(--color-text);
   background-color: var(--color-bg);
+
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.63;
 }

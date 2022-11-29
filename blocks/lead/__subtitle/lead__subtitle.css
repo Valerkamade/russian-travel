@@ -1,0 +1,30 @@
+.lead__subtitle {
+  max-width: calc(100% - 2*16px);
+  margin: 0 auto 40px;
+
+  font-size: 1rem;
+  line-height: 1.25;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .lead__subtitle {
+    max-width: calc(100% - 2 * 64px);
+    margin: 0 auto 56px;
+
+    font-size: 1.875rem;
+    line-height: 1.2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lead__subtitle {
+    max-width: calc(100% - 2 * (192px - 48px));
+  }
+}
+
+@media (min-width: 1280px) {
+  .lead__subtitle {
+    max-width: calc(100% - 2 * (320px - 148px));
+  }
+}

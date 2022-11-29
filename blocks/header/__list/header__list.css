@@ -1,0 +1,10 @@
+.header__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  align-items: flex-end;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

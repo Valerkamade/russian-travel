@@ -1,0 +1,15 @@
+.page__lead {
+margin-bottom: 64px;
+}
+
+@media (min-width: 768px) {
+  .page__lead {
+    margin-bottom: 88px;
+    }
+}
+
+@media (min-width: 1024px) {
+  .page__lead {
+    margin-bottom: 92px;
+    }
+}

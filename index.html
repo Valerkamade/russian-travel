@@ -6,9 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport"
       content="width=device-width,
-      initial-scale=1.0,
-      maximum-scale=1.0,
-      user-scalable=no">
+      initial-scale=1">
     <link rel="stylesheet" href="./pages/index.css">
     <title>Путешествия по России</title>
     <link rel="icon" href="./favicon.ico">
@@ -20,27 +18,29 @@
 
   <body>
     <div class="page">
-      <header class="header">
+      <header class="header page__header">
         <img src="./images/logo/header__logo.svg" alt="Россия"
           class="header__logo">
-        <ul>
-          <li>
-            <a href="" class="header__lang-link link">Ru</a>
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="header__lang-link link header__lang-link_current">Ru</a>
           </li>
-          <li>
+          <li class="header__item">
             <a href="" class="header__lang-link link">En</a>
           </li>
         </ul>
       </header>
 
-      <main class="main">
-        <section class="lead">
-          <h1 class="lead__title">Путешествия по России</h1>
-          <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а
-            здесь.</p>
-          <figure>
-            <img src="./images/lead__image.jpg" alt="" class="lead__image">
-            <figcaption class="caption">ваша полка — верхняя</figcaption>
+      <main class="main page__main">
+        <section class="lead page__lead">
+          <h1 class="lead__title">Путешествия по&nbsp;России</h1>
+          <p class="lead__subtitle">Настоящая страна не&nbsp;в&nbsp;выпусках
+            новостей, а&nbsp;здесь.</p>
+          <figure class="lead__figure">
+            <img class="lead__image"
+              src="./images/lead__image.jpg"
+              alt="">
+            <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
           </figure>
         </section>
 
