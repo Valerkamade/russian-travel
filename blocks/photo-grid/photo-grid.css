@@ -1,24 +1,22 @@
-.header {
-  display: flex;
-  justify-content: space-between;
-
-  width: calc(100vw - 2*var(--margin-mob));
+.photo-grid {
+  max-width: calc(100vw - 2*16px);
 }
 
 @media (min-width: 768px) {
-  .header {
+  .photo-grid {
     width: calc(100vw - 2*var(--margin-tab));
   }
 }
 
-@media (min-width: 1024px) {
-  .header {
+@media (min-width: 768px) {
+  .photo-grid {
     width: calc(100vw - 2*var(--margin-dec));
   }
 }
 
 @media (min-width: 1280px) {
-  .header {
+  .photo-grid {
     max-width: 1184px;
   }
 }
+

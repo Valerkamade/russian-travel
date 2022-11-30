@@ -1,0 +1,22 @@
+.footer__copiright {
+  margin: 0;
+
+  font-size: 0.875rem;
+  line-height: 1;
+}
+
+@media (min-width: 550px) {
+  .footer__copiright {
+    text-align: center;
+    line-height: 1.14;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer__copiright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+  }
+}

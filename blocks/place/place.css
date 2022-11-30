@@ -1,0 +1,33 @@
+.place {
+  list-style: none;
+  width: 100vw;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+}
+
+@media (min-width: 768px) {
+  .place {
+    width: calc(100vw - 2 * var(--margin-tab));
+    grid-template-columns: 0.966fr 1fr;
+    gap: 48px 28px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .place {
+    width: calc(100vw - 2 * var(--margin-dec));
+    grid-template-columns: 0.965fr 1fr;
+    column-gap: 32px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .place {
+    grid-template-columns: 0.95fr 1fr;
+    max-width: 984px;
+    column-gap: 40px;
+  }
+}

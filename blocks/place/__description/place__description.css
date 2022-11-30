@@ -1,0 +1,15 @@
+.place__description {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+  width: calc(100% - 2 * var(--margin-mob));
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .place__description {
+    width: 100%;
+    margin: 0;
+  }
+}

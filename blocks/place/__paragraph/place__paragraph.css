@@ -1,0 +1,13 @@
+.place__paragraph {
+  width: 100%;
+  margin: 0;
+
+  font-size: 1rem;
+  line-height: 1.63;
+}
+
+@media (min-width: 1024px) {
+  .place__description {
+    font-size: 1.125rem;
+  }
+}

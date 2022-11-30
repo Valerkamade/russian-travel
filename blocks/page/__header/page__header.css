@@ -1,22 +1,16 @@
 .page__header {
-  margin: 16px 16px 48px;
+  margin: 16px auto 48px;
 }
 
 @media (min-width: 550px) {
   .page__header {
-    margin: 28px 24px 48px;
-  }
-}
-
-@media (min-width: 850px) {
-  .page__header {
-    margin: 28px 48px 48px;
+    margin-top: 28px;
+    margin-bottom: 48px;
   }
 }
 
 @media (min-width: 1280px) {
   .page__header {
-    margin: 28px auto 56px;
-    width: 1184px;
+    margin-bottom: 56px;
   }
 }

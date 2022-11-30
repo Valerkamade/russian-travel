@@ -1,0 +1,25 @@
+.place__title {
+  width: calc(100% - 2 * var(--margin-mob));
+  margin: 0 auto;
+
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 1.09;
+}
+
+@media (min-width: 768px) {
+  .place__title {
+    width: 100%;
+    margin: 0;
+
+    font-size: 2.625rem;
+    line-height: 1.1;
+  }
+}
+
+@media (min-width: 1024px) {
+  .place__title {
+    font-size: 4.5rem;
+    line-height: 1.06;
+  }
+}

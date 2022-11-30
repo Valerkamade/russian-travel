@@ -1,0 +1,29 @@
+.cover__link {
+  display: block;
+  text-decoration: none;
+  padding: 33px 0;
+
+  background-color: var(--color-cover);
+}
+
+.cover__link:hover {
+  background-color: var(--color-cover-hover);
+}
+
+@media (min-width: 550px) {
+  .cover__link {
+    padding: 115px 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cover__link {
+    padding: 195px 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .cover__link {
+    padding: 245px 0;
+  }
+}

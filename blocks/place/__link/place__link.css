@@ -1,0 +1,17 @@
+.place__link {
+  display: block;
+  width: calc(100% - 2 * var(--margin-mob));
+  margin: 0 auto;
+
+  font-size: 1.125rem;
+  line-height: 1.22;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
+
+@media (min-width: 768px) {
+  .place__link {
+    width: 100%;
+    margin: 0;
+  }
+}

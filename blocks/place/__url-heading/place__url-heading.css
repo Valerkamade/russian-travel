@@ -1,0 +1,23 @@
+.place__url-heading {
+  width: calc(100% - 2 * var(--margin-mob));
+  margin: 0 auto 12px;
+
+  color: var(--color-text-additional);
+
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1;
+}
+
+@media (min-width: 768px) {
+  .place__url-heading {
+    margin: 0 0 12px;
+    }
+}
+
+
+@media (min-width: 1024px) {
+  .place__url-heading {
+    line-height: 1.7;
+    }
+}

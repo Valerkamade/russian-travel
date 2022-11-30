@@ -1,0 +1,11 @@
+.cover {
+  /* width: 100%; */
+  height: auto;
+  background: url("../../images/cover.jpg") center /cover  no-repeat;
+}
+
+@media (min-width: 1280px) {
+  .cover {
+    width: 1184px;
+  }
+}

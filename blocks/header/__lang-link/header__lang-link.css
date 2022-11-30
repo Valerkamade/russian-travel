@@ -1,8 +1,6 @@
 .header__lang-link {
   font-size: 18px;
   line-height: 1.11;
-
-  text-decoration: none;
 }
 
 @media (min-width: 550px) {

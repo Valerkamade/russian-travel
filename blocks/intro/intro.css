@@ -1,24 +1,21 @@
-.header {
-  display: flex;
-  justify-content: space-between;
-
+.intro {
   width: calc(100vw - 2*var(--margin-mob));
 }
 
 @media (min-width: 768px) {
-  .header {
+  .intro {
     width: calc(100vw - 2*var(--margin-tab));
   }
 }
 
 @media (min-width: 1024px) {
-  .header {
+  .intro {
     width: calc(100vw - 2*var(--margin-dec));
   }
 }
 
 @media (min-width: 1280px) {
-  .header {
-    max-width: 1184px;
+  .intro {
+    max-width: 984px;
   }
 }

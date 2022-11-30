@@ -8,8 +8,10 @@
 /* Импорт блока page */
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__header/page__header.css);
+@import url(../blocks/page/__section/page__section.css);
 @import url(../blocks/page/__main/page__main.css);
-@import url(../blocks/page/__lead/page__lead.css);
+@import url(../blocks/page/__places/page__places.css);
+@import url(../blocks/page/__footer/page__footer.css);
 
 /* Импорт блока link */
 @import url(../blocks/link/link.css);
@@ -29,3 +31,43 @@
 @import url(../blocks/lead/__figure/lead__figure.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
+
+/* Импорт блока intro */
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__item/intro__item.css);
+@import url(../blocks/intro/__item-text/intro__item-text.css);
+@import url(../blocks/intro/__span/intro__span.css);
+
+/* Импорт блока photo-grid */
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__list/photo-grid__list.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+@import url(../blocks/photo-grid/__img/photo-grid__img.css);
+
+/* Импорт блока places */
+@import url(../blocks/places/places.css);
+
+/* Импорт блока place */
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__description/place__description.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+
+/* Импорт блока cover */
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__link/cover__link.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+
+/* Импорт блока footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copiright/footer__copiright.css);
