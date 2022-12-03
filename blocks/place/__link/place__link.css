@@ -1,17 +1,17 @@
 .place__link {
   display: block;
-  width: calc(100% - 2 * var(--margin-mob));
-  margin: 0 auto;
+  max-width: calc(100% - 2 * var(--margin-mob));
+  margin: 0 0 0 var(--margin-mob);
 
   font-size: 1.125rem;
-  line-height: 1.22;
+  line-height: 22px;
   text-decoration: underline;
   text-decoration-skip-ink: none;
+  align-self: flex-start;
 }
 
 @media (min-width: 768px) {
   .place__link {
-    width: 100%;
     margin: 0;
   }
 }

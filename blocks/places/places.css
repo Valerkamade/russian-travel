@@ -16,5 +16,6 @@
 @media (min-width: 1024px) {
   .places {
     width: calc(100vw - 2*var(--margin-dec));
+    gap: 80px;
   }
 }

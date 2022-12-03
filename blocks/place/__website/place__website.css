@@ -1,3 +1,5 @@
 .place__website {
-  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }

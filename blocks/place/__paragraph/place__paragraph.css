@@ -3,11 +3,12 @@
   margin: 0;
 
   font-size: 1rem;
-  line-height: 1.63;
+  line-height: 26px;
 }
 
 @media (min-width: 1024px) {
-  .place__description {
+  .place__paragraph {
     font-size: 1.125rem;
+    line-height: 29px;
   }
 }

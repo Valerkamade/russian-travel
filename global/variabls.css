@@ -10,10 +10,4 @@
   --margin-mob: 16px;
   --margin-tab: 24px;
   --margin-dec: 48px;
-
-  /* Контрольные точки */
-  --mob: 320px;
-  --tablet: 768px;
-  --tab-hor: 1024px;
-  --dec: 1280px;
 }

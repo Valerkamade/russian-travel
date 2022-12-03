@@ -26,5 +26,6 @@
 @media (min-width: 1280px) {
   .lead__subtitle {
     max-width: calc(100% - 2 * (320px - 148px));
+    margin: 0 auto 64px;
   }
 }

@@ -8,7 +8,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .photo-grid {
     width: calc(100vw - 2*var(--margin-dec));
   }

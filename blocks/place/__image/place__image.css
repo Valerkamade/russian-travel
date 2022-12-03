@@ -1,5 +1,4 @@
 .place__image {
   width: 100%;
-  /* height: auto; */
-  /* object-fit: cover; */
+  object-position: 0 0;
 }
