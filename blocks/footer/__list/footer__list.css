@@ -1,24 +1,36 @@
 .footer__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   gap: 32px;
-  margin: 0 0 48px;
-  padding: 0;
-  list-style: none;
+  margin-bottom: 48px;
 }
 
 @media (min-width: 550px) {
   .footer__list {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     gap: 0;
-    margin: 0;
+    margin-bottom: 0;
   }
 }
 
 @media (min-width: 768px) {
   .footer__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     gap: 18px;
   }

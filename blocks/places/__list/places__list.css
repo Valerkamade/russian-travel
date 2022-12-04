@@ -1,0 +1,19 @@
+.places__list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  gap: 50px;
+}
+
+@media (min-width: 768px) {
+  .places__list {
+    gap: 73px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .places__list {
+    gap: 80px;
+  }
+}

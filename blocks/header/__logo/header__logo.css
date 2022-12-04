@@ -1,7 +1,8 @@
 .header__logo {
   width: 142px;
   height: auto;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media (min-width: 550px) {

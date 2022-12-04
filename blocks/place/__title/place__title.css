@@ -1,5 +1,5 @@
 .place__title {
-  max-width: calc(100% - 2 * var(--margin-mob));
+  width: calc(100% - 2 * var(--margin-mob));
   margin: 0 0 0 var(--margin-mob);
 
   font-weight: 900;
@@ -9,7 +9,7 @@
 
 @media (min-width: 768px) {
   .place__title {
-    max-width: 97%;
+    width: 97%;
     margin: 0;
 
     font-size: 2.625rem;

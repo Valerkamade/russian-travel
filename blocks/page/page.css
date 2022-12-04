@@ -1,7 +1,12 @@
 .page {
   width: 100%;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 
   color: var(--color-text);
@@ -11,6 +16,4 @@
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.63;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
 }

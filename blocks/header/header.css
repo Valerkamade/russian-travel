@@ -1,19 +1,23 @@
 .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 
-  width: calc(100vw - 2*var(--margin-mob));
+  width: calc(100vw - 2 * var(--margin-mob));
 }
 
 @media (min-width: 768px) {
   .header {
-    width: calc(100vw - 2*var(--margin-tab));
+    width: calc(100vw - 2 * var(--margin-tab));
   }
 }
 
 @media (min-width: 1024px) {
   .header {
-    width: calc(100vw - 2*var(--margin-dec));
+    width: calc(100vw - 2 * var(--margin-dec));
   }
 }
 

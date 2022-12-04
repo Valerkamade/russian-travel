@@ -1,3 +1,5 @@
 .photo-grid__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }

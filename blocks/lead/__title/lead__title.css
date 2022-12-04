@@ -1,5 +1,5 @@
 .lead__title {
-  width: calc(100% - 2 * 16px);
+  width: calc(100% - 2 * var(--margin-mob));
   margin: 0 auto 16px;
 
   font-weight: 900;
@@ -10,7 +10,7 @@
 
 @media (min-width: 768px) {
   .lead__title {
-    width: calc(100% - 2 * 24px);
+    max-width: 720px;
     margin: 0 auto 32px;
 
     font-size: 6rem;
@@ -18,14 +18,3 @@
   }
 }
 
-@media (min-width: 1024px) {
-  .lead__title {
-    width: calc(100% - 2 * (152px - 48px));
-  }
-}
-
-@media (min-width: 1280px) {
-  .lead__title {
-    width: calc(100% - 2 * (280px - 148px));
-  }
-}

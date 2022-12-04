@@ -1,10 +1,10 @@
 .lead {
-  width: 100vw;
+  width: 100%;
 }
 
 @media (min-width: 1024px) {
   .lead {
-    width: calc(100vw - 2*var(--margin-dec));
+    width: calc(100% - 2 * var(--margin-dec));
   }
 }
 

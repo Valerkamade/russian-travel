@@ -1,9 +1,11 @@
 .place {
-  list-style: none;
   width: 100%;
   margin: 0 auto;
 
+  display: -ms-grid;
+
   display: grid;
+  -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
   gap: 32px;
 }
@@ -11,6 +13,7 @@
 @media (min-width: 550px) {
   .place {
     width: calc(100vw - 2 * var(--margin-mob));
+    -ms-grid-columns: 0.966fr 28px 1fr;
     grid-template-columns: 0.966fr 1fr;
     gap: 16px 28px;
   }
@@ -19,6 +22,7 @@
 @media (min-width: 768px) {
   .place {
     width: calc(100vw - 2 * var(--margin-tab));
+    -ms-grid-columns: minmax(340px, 0.966fr) 28px minmax(352px, 1fr);
     grid-template-columns: minmax(340px, 0.966fr) minmax(352px, 1fr);
     gap: 48px 28px;
   }
@@ -27,15 +31,21 @@
 @media (min-width: 1024px) {
   .place {
     width: calc(100vw - 2 * var(--margin-dec));
+    -ms-grid-columns: minmax(440px, 0.965fr) 32px 1fr;
     grid-template-columns: minmax(440px, 0.965fr) 1fr;
+    -webkit-column-gap: 32px;
+    -moz-column-gap: 32px;
     column-gap: 32px;
   }
 }
 
 @media (min-width: 1280px) {
   .place {
+    -ms-grid-columns: 0.95fr 40px 1fr;
     grid-template-columns: 0.95fr 1fr;
     max-width: 984px;
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
     column-gap: 40px;
   }
 }

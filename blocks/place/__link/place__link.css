@@ -1,12 +1,14 @@
 .place__link {
   display: block;
-  max-width: calc(100% - 2 * var(--margin-mob));
+  width: calc(100% - 2 * var(--margin-mob));
   margin: 0 0 0 var(--margin-mob);
 
   font-size: 1.125rem;
   line-height: 22px;
   text-decoration: underline;
+  -webkit-text-decoration-skip-ink: none;
   text-decoration-skip-ink: none;
+  -ms-flex-item-align: start;
   align-self: flex-start;
 }
 
